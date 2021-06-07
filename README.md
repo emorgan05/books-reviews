@@ -21,8 +21,9 @@ The two parameters that the user can change are the list (there are more than 20
 Technology used: VueJS, ElementUI (a styling library), and axios
 With more time, I would do a lot more to expand this:
 1. Security with the api-key
-2. I don't like the library styling of the dropdowns. I would change that.
-3. I would also make sure that when the user chooses a parameter, it would show in the dropdown field. The current is poor User Experience.
-4. I want a loading indicator for the books list.
-5. I like the simple styling of the page because it looks like how a newspaper would present the list. But there is a lot more that I could do with the list.
+2. Splitting the main page into components. I want to make both dropdowns use one flexible "dumb" component, and then I would have a separate component for the actual list. With time to have a details panel (described in #6) I would also make that a separate component. 
+3. I don't like the library styling of the dropdowns. I would change that.
+4. I would also make sure that when the user chooses a parameter, it would show in the dropdown field. The current is poor User Experience.
+5. I want a loading indicator for the books list.
+6. I like the simple styling of the page because it looks like how a newspaper would present the list. But there is a lot more that I could do with the list.
   a. I'd make the title clickable, so the user can open details about each title. The API returns title, author, summary, a picture, links to purchase, and links to book reviews.
